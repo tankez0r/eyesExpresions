@@ -1,0 +1,107 @@
+@keyframes leftBrow {
+
+    0% {
+        transform: matrix(-1, -0.3, 0, 1, 149, 18)
+    }
+
+    100% {
+        transform: matrix(-1, -0.3, 0, 1, 149, 44)
+    }
+}
+
+.angry #left-brow {
+    animation: leftBrow 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes rightBrow {
+
+    0% {
+        transform: matrix(1, -0.3, 0, 1, 149, 18)
+    }
+
+    100% {
+        transform: matrix(1, -0.3, 0, 1, 149, 44)
+    }
+}
+
+.angry #right-brow {
+    animation: rightBrow 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes eyesglobes {
+
+    0% {
+        fill: rgb(210, 219, 237);
+    }
+
+    100% {
+        fill: rgb(240, 23, 7);
+    }
+}
+
+.angry .eyeglobe {
+    animation: eyesglobes 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+
+
+/* normal eyes */
+
+@keyframes invertedLeftBrow {
+    0% {
+        transform: matrix(-1, -0.3, 0, 1, 149, 44);
+        /* Posición final */
+    }
+
+    100% {
+        transform: matrix(-1, -0.3, 0, 1, 149, 18);
+        /* Posición inicial */
+    }
+}
+
+@keyframes invertedRightBrow {
+    0% {
+        transform: matrix(1, -0.3, 0, 1, 149, 44);
+        /* Posición final */
+    }
+
+    100% {
+        transform: matrix(1, -0.3, 0, 1, 149, 18);
+        /* Posición inicial */
+    }
+}
+
+@keyframes invertedEyesGlobes {
+    0% {
+        fill: rgb(240, 23, 7);
+        /* Color final */
+    }
+
+    100% {
+        fill: rgb(210, 219, 237);
+        /* Color inicial */
+    }
+}
+
+.angry-to-normal #left-brow {
+    animation: invertedLeftBrow 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+}
+
+.angry-to-normal #right-brow {
+    animation: invertedRightBrow 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+}
+
+.angry-to-normal .eyeglobe {
+    animation: invertedEyesGlobes 1s cubic-bezier(0.42, 0, 0.58, 1) alternate;
+    animation-fill-mode: forwards;
+}

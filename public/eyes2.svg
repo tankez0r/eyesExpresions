@@ -1,0 +1,17 @@
+<svg id="ePBNChVveYG1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <ellipse rx="55.503293" ry="51.481656" transform="translate(87.911571 98.518345)" fill="#d2dbed"
+        stroke-width="0" />
+    <ellipse rx="55.503293" ry="51.481656" transform="matrix(1 0 0 0.999998 213.04241 98.518447)"
+        fill="#d2dbed" stroke-width="0" stroke-linecap="square" stroke-linejoin="round" />
+    <ellipse rx="55.503293" ry="51.481656" transform="translate(87.911571 201.481656)"
+        fill="#fffefe" stroke-width="0" />
+    <ellipse rx="55.503293" ry="51.481656" transform="translate(213.04241 201.481656)"
+        fill="#fffefe" stroke-width="0" />
+    <rect width="174.035748" height="59.266227" rx="0" ry="0"
+        transform="matrix(.797437 0.304655-.246441 0.64506 18.756618 2.695984)" fill="#fff"
+        stroke-width="0" />
+    <rect width="174.035748" height="59.266227" rx="0" ry="0"
+        transform="matrix(.639633-.341991 0.421347 0.788053 132.255151 59.51867)" fill="#fff"
+        stroke-width="0" />
+</svg>
